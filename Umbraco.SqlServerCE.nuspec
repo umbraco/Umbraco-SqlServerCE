@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Umbraco.SqlServerCE</id>
+    <version>4.0.0.1</version>
+    <title>SqlServerCE packaged for Umbraco</title>
+    <authors>Umbraco and Microsoft® Corporation</authors>
+    <owners>Umbraco and Microsoft® Corporation</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft® SQL Server® Compact is an embedded, in-proc database available across all desktop and device Windows® platforms</description>
+  </metadata>
+  <files>
+    <file src="lib\net472\System.Data.SqlServerCe.dll" target="lib\net472\System.Data.SqlServerCe.dll" />
+    <file src="lib\net472\System.Data.SqlServerCe.Entity.dll" target="lib\net472\System.Data.SqlServerCe.Entity.dll" />
+    
+    <file src="runtimes\win-x64\native\sqlceca40.dll" target="runtimes\win-x64\native\sqlceca40.dll" />
+    <file src="runtimes\win-x64\native\sqlcecompact40.dll" target="runtimes\win-x64\native\sqlcecompact40.dll" />
+    <file src="runtimes\win-x64\native\sqlceer40EN.dll" target="runtimes\win-x64\native\sqlceer40EN.dll" />
+    <file src="runtimes\win-x64\native\sqlceme40.dll" target="runtimes\win-x64\native\sqlceme40.dll" />
+    <file src="runtimes\win-x64\native\sqlceqp40.dll" target="runtimes\win-x64\native\sqlceqp40.dll" />
+    <file src="runtimes\win-x64\native\sqlcese40.dll" target="runtimes\win-x64\native\sqlcese40.dll" />
+    <file src="runtimes\win-x64\native\Microsoft.VC90.CRT\msvcr90.dll" target="runtimes\win-x64\native\Microsoft.VC90.CRT\msvcr90.dll" />
+    <file src="runtimes\win-x64\native\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" target="runtimes\win-x64\native\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
+    
+    <file src="runtimes\win-x86\native\sqlceca40.dll" target="runtimes\win-x86\native\sqlceca40.dll" />
+    <file src="runtimes\win-x86\native\sqlcecompact40.dll" target="runtimes\win-x86\native\sqlcecompact40.dll" />
+    <file src="runtimes\win-x86\native\sqlceer40EN.dll" target="runtimes\win-x86\native\sqlceer40EN.dll" />
+    <file src="runtimes\win-x86\native\sqlceme40.dll" target="runtimes\win-x86\native\sqlceme40.dll" />
+    <file src="runtimes\win-x86\native\sqlceqp40.dll" target="runtimes\win-x86\native\sqlceqp40.dll" />
+    <file src="runtimes\win-x86\native\sqlcese40.dll" target="runtimes\win-x86\native\sqlcese40.dll" />
+    <file src="runtimes\win-x86\native\Microsoft.VC90.CRT\msvcr90.dll" target="runtimes\win-x86\native\Microsoft.VC90.CRT\msvcr90.dll" />
+    <file src="runtimes\win-x86\native\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" target="runtimes\win-x86\native\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
+    
+    <file src="build\Umbraco.SqlServerCE.targets" target="build\Umbraco.SqlServerCE.targets" />
+  </files>
+</package>
